@@ -1,5 +1,7 @@
 # merged-vbb-stations
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/derhuerst/merged-vbb-stations.svg)](https://greenkeeper.io/)
+
 **A precomputed list of [VBB stations that should be one](https://derhuerst.github.io/merge-vbb-stations/).** The result of running [`merge-vbb-stations`](https://github.com/derhuerst/merge-vbb-stations#merge-vbb-stations), published to npm.
 
 [![npm version](https://img.shields.io/npm/v/merged-vbb-stations.svg)](https://www.npmjs.com/package/merged-vbb-stations)
