@@ -22,14 +22,15 @@
 	"engines": {
 		"node": ">=6"
 	},
-	"dependencies": {
-	},
+	"dependencies": {},
 	"devDependencies": {
+		"merge-vbb-stations": "^1.0.3",
 		"tap-min": "^1.2.2",
 		"tape": "^4.8.0"
 	},
 	"scripts": {
+		"build": "node build.js >index.json",
 		"test": "node test.js | tap-min",
-		"prepublishOnly": "npm test"
+		"prepublishOnly": "npm run build && npm test"
 	}
 }
