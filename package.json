@@ -1,0 +1,35 @@
+{
+	"name": "merged-vbb-stations",
+	"description": "A precomputed list of VBB stations that should be one.",
+	"version": "0.1.0",
+	"main": "index.json",
+	"files": [
+		"index.json"
+	],
+	"keywords": [
+		"vbb",
+		"bvg",
+		"berlin",
+		"public transport",
+		"transit",
+		"stations"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/merged-vbb-stations",
+	"repository": "derhuerst/merged-vbb-stations",
+	"bugs": "https://github.com/derhuerst/merged-vbb-stations/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=6"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"tap-min": "^1.2.2",
+		"tape": "^4.8.0"
+	},
+	"scripts": {
+		"test": "node test.js | tap-min",
+		"prepublishOnly": "npm test"
+	}
+}
