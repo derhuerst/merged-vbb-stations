@@ -4,7 +4,8 @@
 	"version": "1.0.0",
 	"main": "index.json",
 	"files": [
-		"index.json"
+		"index.json",
+		"instructions.json"
 	],
 	"keywords": [
 		"vbb",
@@ -29,7 +30,7 @@
 		"tape": "^4.8.0"
 	},
 	"scripts": {
-		"build": "node build.js >index.json",
+		"build": "node build.js",
 		"test": "node test.js | tap-min",
 		"prepublishOnly": "npm run build && npm test"
 	}

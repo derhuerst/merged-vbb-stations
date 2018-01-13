@@ -8,7 +8,7 @@ script:
   - 'npm run build'
   - 'npm test'
 before_deploy:
-  - ls -lh index.json
+  - ls -lh index.json instructions.json
   - npm i semver
   - npm version --no-git-tag-version --force $(./node_modules/.bin/semver -i minor $(npm info merged-vbb-stations version))
 deploy:
