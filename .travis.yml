@@ -2,15 +2,12 @@ sudo: false
 language: node_js
 node_js:
   - 'stable'
-  - '8'
-  - '6'
 script:
   - 'npm run build'
   - 'npm test'
 before_deploy:
   - ls -lh index.json instructions.json
-  - npm i semver
-  - npm version --no-git-tag-version --force $(./node_modules/.bin/semver -i minor $(npm info merged-vbb-stations version))
+  - npm version --no-git-tag-version --force $(npx semver -- -i minor $(npm info merged-vbb-stations version))
 deploy:
   provider: npm
   on:
