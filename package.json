@@ -25,7 +25,7 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"merge-vbb-stations": "^1.0.3",
+		"merge-vbb-stations": "^2.0.0",
 		"tap-min": "^1.2.2",
 		"tape": "^4.8.0"
 	},
