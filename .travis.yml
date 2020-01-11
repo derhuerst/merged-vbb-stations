@@ -1,6 +1,7 @@
 language: node_js
 node_js:
   - 'stable'
+  - '8'
 script:
   - 'npm run build'
   - 'npm test'
@@ -11,7 +12,7 @@ deploy:
   provider: npm
   on:
     branch: master
-    node: '6'
+    node: '8'
   email: 'mail@jannisr.de'
   api_key: ${NPM_KEY}
   skip_cleanup: true

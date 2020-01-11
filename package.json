@@ -1,7 +1,7 @@
 {
 	"name": "merged-vbb-stations",
 	"description": "A precomputed list of VBB stations that should be one.",
-	"version": "1.12.0",
+	"version": "2.0.0",
 	"main": "index.json",
 	"files": [
 		"index.json",
@@ -21,12 +21,12 @@
 	"bugs": "https://github.com/derhuerst/merged-vbb-stations/issues",
 	"license": "ISC",
 	"engines": {
-		"node": ">=6"
+		"node": ">=8"
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"merge-vbb-stations": "^1.0.3",
-		"tap-min": "^1.2.2",
+		"merge-vbb-stations": "^2.0.1",
+		"tap-min": "^2.0.0",
 		"tape": "^4.8.0"
 	},
 	"scripts": {
