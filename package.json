@@ -27,7 +27,7 @@
 	"devDependencies": {
 		"merge-vbb-stations": "^2.0.1",
 		"tap-min": "^2.0.0",
-		"tape": "^4.8.0"
+		"tape": "^5.0.0"
 	},
 	"scripts": {
 		"build": "node build.js",
