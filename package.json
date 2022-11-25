@@ -1,9 +1,10 @@
 {
 	"name": "merged-vbb-stations",
 	"description": "A precomputed list of VBB stations that should be one.",
-	"version": "2.3.0",
-	"main": "index.json",
+	"version": "2.3.1",
+	"main": "index.js",
 	"files": [
+		"index.js",
 		"index.json",
 		"instructions.json"
 	],
